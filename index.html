@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="widget-box">
+      <div class="city-box">
+        <p class="city">KYIV</p>
+        <div class="descr-box">few clouds</div>
+        <div class="weather-icon">
+          <img
+            class="icon"
+            src="http://openweathermap.org/img/w/02d.png"
+            alt="weather"
+            width="80px"
+          />
+        </div>
+      </div>
+      <div class="weather-info">
+        <div class="temp-box">
+          Air temperature: <span class="temp">21</span>°
+        </div>
+        <div class="pressure-box">
+          Atmospheric pressure: <span class="pressure">1019</span> hPa
+        </div>
+
+        <div class="humidity-box">
+          Air humidity: <span class="humidity">42</span> %
+        </div>
+        <div class="speed-box">
+          Wind speed: <span class="speed">4.06</span> m/s
+        </div>
+        <div class="deg-box">Wind direction: <span class="deg">138</span>°</div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
