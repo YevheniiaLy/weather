@@ -1,5 +1,5 @@
 fetch(
-  "http://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19"
+  "https://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19"
 )
   .then((response) => response.json())
   .then((items) => {
@@ -27,6 +27,6 @@ fetch(
 
     icon.setAttribute(
       "src",
-      `http://openweathermap.org/img/w/${items.weather[0].icon}.png`
+      `https://openweathermap.org/img/w/${items.weather[0].icon}.png`
     );
   });
